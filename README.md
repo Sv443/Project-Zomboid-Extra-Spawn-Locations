@@ -28,17 +28,28 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
   
 - Occupation-dependent:
     - Brandenburg, KY
+        - Region: `{ name = "Brandenburg,KY", file = "media/maps/Brandenburg, KY/spawnpoints.lua" },`
     - Ekron, KY
+        - Region: `{ name = "Ekron,KY", file = "media/maps/Ekron, KY/spawnpoints.lua" },`
     - Fallas Lake, KY
+        - Region: `{ name = "Fallas Lake,KY", file = "media/maps/Fallas Lake, KY/spawnpoints.lua" },`
     - Irvington, KY
+        - Region: `{ name = "Irvington,KY", file = "media/maps/Irvington, KY/spawnpoints.lua" },`
     - Louisville, KY
+        - Region: `{ name = "Louisville,KY", file = "media/maps/Louisville, KY/spawnpoints.lua" },`
     - March Ridge, KY
+        - Region: `{ name = "March Ridge,KY", file = "media/maps/March Ridge, KY/spawnpoints.lua" },`
 - Occupation-independent:
     - Coalfield, KY
+        - Region: `{ name = "Coalfield,KY", file = "media/maps/Coalfield, KY/spawnpoints.lua" },`
     - Dark Wallow Lake, KY
+        - Region: `{ name = "Dark Wallow Lake,KY", file = "media/maps/Dark Wallow Lake, KY/spawnpoints.lua" },`
     - Echo Creek, KY
+        - Region: `{ name = "Echo Creek,KY", file = "media/maps/Echo Creek, KY/spawnpoints.lua" },`
     - Doe Valley, KY
+        - Region: `{ name = "Doe Valley,KY", file = "media/maps/Doe Valley, KY/spawnpoints.lua" },`
     - Valley Station, KY
+        - Region: `{ name = "Valley Station,KY", file = "media/maps/Valley Station, KY/spawnpoints.lua" },`
 
 ### `[B42]` [Project Indiana Expansion B42 DEMO](https://steamcommunity.com/sharedfiles/filedetails/?id=3507117617)
 <details><summary><b>Map - click to show</b></summary>
@@ -49,20 +60,58 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
 
 - Occupation-independent:
     - Charlestown, IN
+        - Region: `{ name = "Charlestown,IN", file = "media/maps/Charlestown, IN/spawnpoints.lua" },`
     - Corydon, IN
+        - Region: `{ name = "Corydon,IN", file = "media/maps/Corydon, IN/spawnpoints.lua" },`
     - Elizabeth, IN
+        - Region: `{ name = "Elizabeth,IN", file = "media/maps/Elizabeth, IN/spawnpoints.lua" },`
     - Laconia, IN
+        - Region: `{ name = "Laconia,IN", file = "media/maps/Laconia, IN/spawnpoints.lua" },`
 
 
 <br><br>
 
 
 ## Installation in Singleplayer
-TODO
-
+1. [Download and extract this repository](https://github.com/Sv443/Project-Zomboid-Extra-Spawn-Locations/archive/refs/heads/main.zip) and copy all folders in [`maps/`](./maps/) that you want to add into `steamapps/common/ProjectZomboid/media/maps`
+2. Done?
 
 <br><br>
 
 
 ## Installation on Multiplayer Servers
-TODO
+1. [Download and extract this repository](https://github.com/Sv443/Project-Zomboid-Extra-Spawn-Locations/archive/refs/heads/main.zip) and copy all folders in [`maps/`](./maps/) that you want to add into `server-files/media/maps/`
+2. Edit the file `server-data/Server/pzserver_spawnregions.lua` and add every "region" object string from the [list of added spawns](#list-of-added-spawns) on a new line.  
+  Here is a complete file, feel free to copy it and remove every spawn point you didn't add a folder for:  
+    <details><summary>Full pzserver_spawnregions.lua file - click to expand</summary>
+    
+    ```lua
+    function SpawnRegions()
+      return {
+        -- Vanilla:
+        { name = "Muldraugh,KY", file = "media/maps/Muldraugh, KY/spawnpoints.lua" },
+        { name = "Riverside,KY", file = "media/maps/Riverside, KY/spawnpoints.lua" },
+        { name = "Rosewood,KY", file = "media/maps/Rosewood, KY/spawnpoints.lua" },
+        { name = "West Point,KY", file = "media/maps/West Point, KY/spawnpoints.lua" },
+        -- B42 Extra:
+        { name = "Brandenburg,KY", file = "media/maps/Brandenburg, KY/spawnpoints.lua" },
+        { name = "Coalfield,KY", file = "media/maps/Coalfield, KY/spawnpoints.lua" },
+        { name = "Dark Wallow Lake,KY", file = "media/maps/Dark Wallow Lake, KY/spawnpoints.lua" },
+        { name = "Doe Valley,KY", file = "media/maps/Doe Valley, KY/spawnpoints.lua" },
+        { name = "Echo Creek,KY", file = "media/maps/Echo Creek, KY/spawnpoints.lua" },
+        { name = "Ekron,KY", file = "media/maps/Ekron, KY/spawnpoints.lua" },
+        { name = "Fallas Lake,KY", file = "media/maps/Fallas Lake, KY/spawnpoints.lua" },
+        { name = "Irvington,KY", file = "media/maps/Irvington, KY/spawnpoints.lua" },
+        { name = "Louisville,KY", file = "media/maps/Louisville, KY/spawnpoints.lua" },
+        { name = "March Ridge,KY", file = "media/maps/March Ridge, KY/spawnpoints.lua" },
+        { name = "Valley Station,KY", file = "media/maps/Valley Station, KY/spawnpoints.lua" },
+        -- Project Indiana:
+        { name = "Charlestown,IN", file = "media/maps/Charlestown, IN/spawnpoints.lua" },
+        { name = "Corydon,IN", file = "media/maps/Corydon, IN/spawnpoints.lua" },
+        { name = "Elizabeth,IN", file = "media/maps/Elizabeth, IN/spawnpoints.lua" },
+        { name = "Laconia,IN", file = "media/maps/Laconia, IN/spawnpoints.lua" },
+      }
+    end
+    ```
+    </details>
+3. Restart the server, create a new character, and spawn in over 300 new locations!
