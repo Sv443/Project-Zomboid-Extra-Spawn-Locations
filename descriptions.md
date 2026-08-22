@@ -1,0 +1,32 @@
+- Build 42
+    - Brandenburg, KY:
+        - Brandenburg, nestled on the banks of the mighty Ohio, is a place that the finest folks of Kentucky call home! Buy a gift for that special someone in the Pondview Shopping Center, share a drink with a friend in the Outside Notes bar, or simply mix with the locals... there is something for everyone. And if you're feeling brave, why not book a tour of the Sunderland Hills Sanatorium over to the East?
+    - Coalfield, KY:
+        - Ever wonder what life was like in the mining boomtowns of old? Wonder no more! Coalfield is a lovingly built recreation of a frontier town, tucked away in Doe Valley Forest just north of Echo Creek. Wet your whistle at the Coalfield Public House or El Grande Saloon, stock up at Porter & Son General Store, and try your hand at the forge in the blacksmith's shop. Rent a room at the Coalfield Inn, pay a visit to the Sheriff's office, and don't miss the hanging post and old graveyard on the west end - just don't ask too many questions about who's buried there!
+    - Dark Wallow Lake, KY:
+        - The people of Knox Country are outdoor types. You'll find us on the streets, you'll find us on the trails. The place we go to relax? Dark Wallow Lake: with its lodges, camps and some of the best fishing in all of Kentucky. The ultimate place to take in nature in all its glory!
+    - Echo Creek, KY:
+        - Echo Creek is a humble town - the people here farm, pray, and like to keep to themselves - but it's rural Kentucky at its finest, and the perfect location for those wanting to explore the western reaches of Knox Country. Venture west to Ekron, take a trip south to Irvington and its famous speedway, or head north to Brandenburg. No matter which way you go, it'll be the trip of a lifetime!
+    - Ekron, KY:
+        - With a population of under two hundred, Ekron is a place where the locals won't bother you. Most of the residents work in the AMZ Steelworks plant, or make the daily commute to Brandenburg to the north or Irvington to the south. They don't get a lot of time to relax but don't worry - they'll always make time for a chat over your backyard fence!
+    - Fallas Lake, KY:
+        - There are three types of people in Fallas Lake - farmers, lake fishers, and people passing through on the way to Rosewood to the south, or Riverside to the north. But linger for a while in its charming streets and you may find a peace and serenity forever out of grasp in Kentucky's larger towns and cities.
+    - Irvington, KY:
+        - Despite its humble appearance, Irvington is a global byword for SPEED! The Irvington Speedway's OSCC events draw fans from all around the world, and there's even talk of it hosting a Formula X race soon. Outside of race days, you can find locals gathering to play games in the Wizard's Keep, purchasing guns at Well Regulated Militia, or perusing the latest bovine stock at Brott Cattle Farm.
+    - Louisville, KY:
+        - Louisville, Kentucky, also known as "Gateway to the South", stands as the largest city within Knox Country. Established in 1778, this metropolis comprises an array of neighborhoods, offering everything from tall high rises to dilapidated districts. As a major urban area, the city's vast commercial regions promise a massive abundance of supplies, but survivors should be wary of the high zombie population. 
+    - March Ridge, KY:
+        - At-tent-ion! March Ridge serves as the home of many of Fort Knox's brave soldiers and their families. Despite its structured layout and secured access, March Ridge has plenty of opportunities for R and R. Rent your favorite flick at Hit Vids. Catch the latest blockbusters at the Star-E-Plex. You can even take a tour of the abandoned Cold War nuclear bunker - and be thankful the apocalypse never happened!
+    - Doe Valley, KY:
+        - Doe Valley is where Knox Country comes to unwind. Trade the double-wide for a round of golf at West Maple Country Club - eighteen holes, tennis, squash, and a pool for when the Kentucky sun gets to be too much. Grab a bite at the clubhouse restaurant, or if you're here for work and not play, the Lectromax Factory keeps the lights on for half the county.
+    - Valley Station, KY:
+        - Though only a short drive from Louisville along the Dixie Highway, Valley Station is rural life at its most relaxing. Spend a day watching the Ohio flow past. Go birdwatching, walking, or hunting in Jefferson Forest. When you're ready to return to civilization, visit Crossroads Mall for just about anything you can think of!"
+- Project Indiana Expansion Build 42 DEMO
+    - Charlestown, IN:
+        - Charlestown's been through a few lives - pioneer outpost, wartime boomtown thanks to the old Army Ammunition Plant, and now the gateway to some of the best outdoor country around. Pitch a tent or hit the trails at Charlestown State Park, and see why folks keep coming back to the Ohio River's edge.
+    - Corydon, IN:
+        - Corydon wears its history on its sleeve - this is where Indiana's first constitution was hammered out under the Constitution Elm, back when the town briefly ran the whole territory. These days you can wander the old stone capitol, poke around downtown, and get a feel for small-town Indiana at its most storied.
+    - Elizabeth, IN:
+        - Elizabeth is quiet farm country perched above the Ohio River, the kind of place where everybody's buried in the same cemetery regardless of what they believed in life. Stop and stretch your legs, say hello to the locals, and enjoy a slower pace before moving on down the river road.
+    - Laconia, IN:
+        - Once the commercial heart of Boone Township, Laconia still looks out over the water where the old Tobacco Landing ferry used to run trade up and down the Ohio Valley. It's sleepy now, but wander the river-facing streets and you can practically hear the old boats coming in.
