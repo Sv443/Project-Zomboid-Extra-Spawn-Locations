@@ -37,7 +37,7 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
     - Coalfield, KY
     - Dark Wallow Lake, KY
     - Echo Creek, KY
-    - Scenic Grove, KY
+    - Doe Valley, KY
     - Valley Station, KY
 
 ### `[B42]` [Project Indiana Expansion B42 DEMO](https://steamcommunity.com/sharedfiles/filedetails/?id=3507117617)
@@ -65,3 +65,4 @@ TODO
 
 
 ## Installation on Multiplayer Servers
+TODO

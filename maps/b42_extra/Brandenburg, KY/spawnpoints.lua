@@ -1,7 +1,111 @@
 function SpawnPoints()
-  return {
-    unemployed = {
-      { posX = 2152, posY = 6089, posZ = 0 },
+    local poor_houses = {
+        { posX = 2780, posY = 6229, posZ = 0 },
+        { posX = 2764, posY = 6313, posZ = 0 },
+        { posX = 2676, posY = 6381, posZ = 0 },
+        { posX = 2679, posY = 6335, posZ = 0 },
+        { posX = 2675, posY = 6220, posZ = 0 },
+        { posX = 2190, posY = 5773, posZ = 0 },
+        { posX = 1469, posY = 6325, posZ = 0 },
+        { posX = 1567, posY = 6062, posZ = 0 },
+        { posX = 1561, posY = 5675, posZ = 0 },
+        { posX = 1588, posY = 5648, posZ = 0 },
+        { posX = 1558, posY = 5617, posZ = 0 },
+        { posX = 1591, posY = 5609, posZ = 0 },
     }
-  }
+    local medium_houses = {
+        { posX = 2253, posY = 5902, posZ = 0 },
+        { posX = 2252, posY = 6091, posZ = 0 },
+        { posX = 2208, posY = 6129, posZ = 0 },
+        { posX = 2216, posY = 6243, posZ = 0 },
+        { posX = 1786, posY = 6539, posZ = 0 },
+        { posX = 1640, posY = 6105, posZ = 0 },
+        { posX = 1629, posY = 5681, posZ = 0 },
+        { posX = 1775, posY = 5749, posZ = 0 },
+        { posX = 1992, posY = 5822, posZ = 0 },
+    }
+    local rich_houses = {
+        { posX = 1725, posY = 5977, posZ = 0 },
+        { posX = 1721, posY = 5935, posZ = 0 },
+        { posX = 1723, posY = 5902, posZ = 0 },
+        { posX = 1723, posY = 5863, posZ = 0 },
+        { posX = 1725, posY = 5827, posZ = 0 },
+        { posX = 1723, posY = 5797, posZ = 0 },
+        -- weight:
+        { posX = 1725, posY = 5977, posZ = 0 },
+        { posX = 1721, posY = 5935, posZ = 0 },
+        { posX = 1723, posY = 5902, posZ = 0 },
+        { posX = 1723, posY = 5863, posZ = 0 },
+        { posX = 1725, posY = 5827, posZ = 0 },
+        { posX = 1723, posY = 5797, posZ = 0 },
+    }
+    local doctor_houses = {
+        { posX = 1724, posY = 5744, posZ = 0 },
+        { posX = 1717, posY = 5755, posZ = 0 },
+        { posX = 2076, posY = 5910, posZ = 0 },
+        -- weight:
+        { posX = 1724, posY = 5744, posZ = 0 },
+        { posX = 1717, posY = 5755, posZ = 0 },
+        { posX = 2076, posY = 5910, posZ = 0 },
+        { posX = 1724, posY = 5744, posZ = 0 },
+        { posX = 1717, posY = 5755, posZ = 0 },
+        { posX = 2076, posY = 5910, posZ = 0 },
+        { posX = 1724, posY = 5744, posZ = 0 },
+        { posX = 1717, posY = 5755, posZ = 0 },
+        { posX = 2076, posY = 5910, posZ = 0 },
+    }
+    local police_station = {
+        { posX = 2040, posY = 5978, posZ = 0 },
+        { posX = 1418, posY = 5877, posZ = 0 },
+        -- weight:
+        { posX = 2040, posY = 5978, posZ = 0 },
+        { posX = 1418, posY = 5877, posZ = 0 },
+        { posX = 2040, posY = 5978, posZ = 0 },
+        { posX = 1418, posY = 5877, posZ = 0 },
+        { posX = 2040, posY = 5978, posZ = 0 },
+        { posX = 1418, posY = 5877, posZ = 0 },
+        { posX = 2040, posY = 5978, posZ = 0 },
+        { posX = 1418, posY = 5877, posZ = 0 },
+    }
+    local fire_station = {
+        { posX = 2059, posY = 6259, posZ = 1 },
+        { posX = 2061, posY = 6269, posZ = 1 },
+        -- weight:
+        { posX = 2059, posY = 6259, posZ = 1 },
+        { posX = 2061, posY = 6269, posZ = 1 },
+        { posX = 2059, posY = 6259, posZ = 1 },
+        { posX = 2061, posY = 6269, posZ = 1 },
+        { posX = 2059, posY = 6259, posZ = 1 },
+        { posX = 2061, posY = 6269, posZ = 1 },
+        { posX = 2059, posY = 6259, posZ = 1 },
+        { posX = 2061, posY = 6269, posZ = 1 },
+    }
+    return {
+        chef = mergeTable(poor_houses, medium_houses, rich_houses),
+        constructionworker = poor_houses,
+        doctor = mergeTable(medium_houses, rich_houses, doctor_houses),
+        fireofficer = mergeTable(poor_houses, fire_station),
+        nurse = poor_houses,
+        parkranger = poor_houses,
+        policeofficer = mergeTable(poor_houses, medium_houses, police_station),
+        repairman = poor_houses,
+        securityguard = poor_houses,
+        unemployed = poor_houses,
+        burglar = poor_houses,
+        burgerflipper = poor_houses,
+        carpenter = poor_houses,
+        electrician = poor_houses,
+        engineer = mergeTable(medium_houses, rich_houses),
+        farmer = poor_houses,
+        fisherman = poor_houses,
+        fitnessInstructor = poor_houses,
+        lumberjack = poor_houses,
+        mechanics = poor_houses,
+        metalworker = poor_houses,
+        rancher = poor_houses,
+        repairman = poor_houses,
+        smither = poor_houses,
+        tailor = poor_houses,
+        veteran = poor_houses,
+    }
 end
