@@ -63,8 +63,6 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
         - Region: `{ name = "Charlestown,IN", file = "media/maps/Charlestown, IN/spawnpoints.lua" },`
     - Corydon, IN
         - Region: `{ name = "Corydon,IN", file = "media/maps/Corydon, IN/spawnpoints.lua" },`
-    - Elizabeth, IN
-        - Region: `{ name = "Elizabeth,IN", file = "media/maps/Elizabeth, IN/spawnpoints.lua" },`
     - Laconia, IN
         - Region: `{ name = "Laconia,IN", file = "media/maps/Laconia, IN/spawnpoints.lua" },`
 
@@ -73,8 +71,9 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
 
 
 ## Installation in Singleplayer
-1. [Download and extract this repository](https://github.com/Sv443/Project-Zomboid-Extra-Spawn-Locations/archive/refs/heads/main.zip) and copy all folders in [`maps/`](./maps/) that you want to add into `steamapps/common/ProjectZomboid/media/maps`
-2. Done?
+1. [Download and extract this repository](https://github.com/Sv443/Project-Zomboid-Extra-Spawn-Locations/archive/refs/heads/main.zip) and copy all folders in [`maps/`](./maps/) that you want to add into `steamapps/common/ProjectZomboid/media/maps`.  
+  If a folder with that name exists, delete it before copying over the custom spawns, or select the "replace" option in your file manager.
+2. Restart the game if it is running, create a new character, and spawn in over 300 new locations!
 
 <br><br>
 
@@ -108,7 +107,6 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
         -- Project Indiana:
         { name = "Charlestown,IN", file = "media/maps/Charlestown, IN/spawnpoints.lua" },
         { name = "Corydon,IN", file = "media/maps/Corydon, IN/spawnpoints.lua" },
-        { name = "Elizabeth,IN", file = "media/maps/Elizabeth, IN/spawnpoints.lua" },
         { name = "Laconia,IN", file = "media/maps/Laconia, IN/spawnpoints.lua" },
       }
     end
