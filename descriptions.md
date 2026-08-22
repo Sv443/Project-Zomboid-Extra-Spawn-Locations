@@ -26,7 +26,5 @@
         - Charlestown's been through a few lives - pioneer outpost, wartime boomtown thanks to the old Army Ammunition Plant, and now the gateway to some of the best outdoor country around. Pitch a tent or hit the trails at Charlestown State Park, and see why folks keep coming back to the Ohio River's edge.
     - Corydon, IN:
         - Corydon wears its history on its sleeve - this is where Indiana's first constitution was hammered out under the Constitution Elm, back when the town briefly ran the whole territory. These days you can wander the old stone capitol, poke around downtown, and get a feel for small-town Indiana at its most storied.
-    - Elizabeth, IN:
-        - Elizabeth is quiet farm country perched above the Ohio River, the kind of place where everybody's buried in the same cemetery regardless of what they believed in life. Stop and stretch your legs, say hello to the locals, and enjoy a slower pace before moving on down the river road.
     - Laconia, IN:
         - Once the commercial heart of Boone Township, Laconia still looks out over the water where the old Tobacco Landing ferry used to run trade up and down the Ohio Valley. It's sleepy now, but wander the river-facing streets and you can practically hear the old boats coming in.
