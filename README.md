@@ -21,6 +21,7 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
 
 ### `[B42]` Extra Vanilla Build 42 Spawns
 <details><summary><b>Map - click to show</b></summary>
+<br>
 
 ![Map of Project Zomboid Build 42 showing all new spawn locations](./B42%20Map%20-%20Spawns.jpg)  
 </details>
@@ -41,6 +42,7 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
 
 ### `[B42]` [Project Indiana Expansion B42 DEMO](https://steamcommunity.com/sharedfiles/filedetails/?id=3507117617)
 <details><summary><b>Map - click to show</b></summary>
+<br>
 
 ![Map of Project Indiana Expansion B42 DEMO showing all new spawn locations](./Project%20Indiana%20Map%20-%20Spawns.jpg)  
 </details>
