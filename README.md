@@ -71,7 +71,7 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
 
 
 ## Installation in Singleplayer
-1. [Download and extract this repository](https://github.com/Sv443/Project-Zomboid-Extra-Spawn-Locations/archive/refs/heads/main.zip) and copy all folders in [`maps/`](./maps/) that you want to add into `steamapps/common/ProjectZomboid/media/maps`.  
+1. [Download and extract this repository](https://github.com/Sv443/Project-Zomboid-Extra-Spawn-Locations/archive/refs/heads/main.zip) and copy all folders of the subfolders in [`maps/`](./maps/) that you want to add into `steamapps/common/ProjectZomboid/media/maps`.  
   If a folder with that name exists, delete it before copying over the custom spawns, or select the "replace" option in your file manager.
 2. Restart the game if it is running, create a new character, and spawn in over 300 new locations!
 
@@ -79,7 +79,7 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
 
 
 ## Installation on Multiplayer Servers
-1. [Download and extract this repository](https://github.com/Sv443/Project-Zomboid-Extra-Spawn-Locations/archive/refs/heads/main.zip) and copy all folders in [`maps/`](./maps/) that you want to add into `server-files/media/maps/`
+1. [Download and extract this repository](https://github.com/Sv443/Project-Zomboid-Extra-Spawn-Locations/archive/refs/heads/main.zip) and copy all folders of the subfolders in [`maps/`](./maps/) that you want to add into `server-files/media/maps/`.
 2. Edit the file `server-data/Server/pzserver_spawnregions.lua` and add every "region" object string from the [list of added spawns](#list-of-added-spawns) on a new line.  
   Here is a complete file, feel free to copy it and remove every spawn point you didn't add a folder for:  
     <details><summary>Full pzserver_spawnregions.lua file - click to expand</summary>
