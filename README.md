@@ -20,7 +20,7 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
 > 
 > - Occupation-dependent means the pool from which possible spawn locations are chosen is different based on the character's occupation and wealth.  
 >   For example, the `fireofficer` occupation may spawn in poor wealth houses as well as fire stations, while the engineer can only spawn in medium and rich wealth houses.
-> - Since there are limited spawns for certain occupations like `fireofficer` or `policeofficer`, they have been duplicated so characters have a similar chance of spawning at their home vs at their jobsite.
+> - Since there are limited spawns for certain occupations like `fireofficer` or `policeofficer`, they have been balanced out so characters have a similar chance of spawning at their home vs at their jobsite.
 > - If you want a list of the raw coordinates, refer to [the `coordinates.csv` file.](./coordinates.csv)
 > - If you're interested in how spawnpoints work, maybe my notes in [the `info.md` file](./info.md) will be of help.
 
