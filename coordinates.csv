@@ -1,5 +1,4 @@
-Mod,State,Location,Type,X,Y,Z
-
+Mod,State,Location,Type,X,Y,Z$1 spawnpoints
 Vanilla B42,KY,Brandenburg,poor_houses,2780,6229,0
 Vanilla B42,KY,Brandenburg,poor_houses,2764,6313,0
 Vanilla B42,KY,Brandenburg,poor_houses,2676,6381,0
@@ -33,8 +32,7 @@ Vanilla B42,KY,Brandenburg,doctor_houses,2076,5910,0
 Vanilla B42,KY,Brandenburg,police_station,2040,5978,0
 Vanilla B42,KY,Brandenburg,police_station,1418,5877,0
 Vanilla B42,KY,Brandenburg,fire_station,2059,6259,1
-Vanilla B42,KY,Brandenburg,fire_station,2061,6269,1
-
+Vanilla B42,KY,Brandenburg,fire_station,2061,6269,1$1 spawnpoints
 Vanilla B42,KY,Coalfield,unemployed,3453,8241,0
 Vanilla B42,KY,Coalfield,unemployed,3452,8227,0
 Vanilla B42,KY,Coalfield,unemployed,3434,8207,0
@@ -46,16 +44,27 @@ Vanilla B42,KY,Coalfield,unemployed,3534,8205,0
 Vanilla B42,KY,Coalfield,unemployed,3511,8237,0
 Vanilla B42,KY,Coalfield,unemployed,3645,8566,0
 Vanilla B42,KY,Coalfield,unemployed,3690,8597,0
-Vanilla B42,KY,Coalfield,unemployed,3661,8535,0
-
+Vanilla B42,KY,Coalfield,unemployed,3661,8535,0$1 spawnpoints
 Vanilla B42,KY,Dark Wallow Lake,unemployed,8361,14004,0
 Vanilla B42,KY,Dark Wallow Lake,unemployed,7754,14305,0
 Vanilla B42,KY,Dark Wallow Lake,unemployed,7788,14649,0
 Vanilla B42,KY,Dark Wallow Lake,unemployed,7636,14643,0
 Vanilla B42,KY,Dark Wallow Lake,unemployed,7787,14584,0
 Vanilla B42,KY,Dark Wallow Lake,unemployed,8795,15232,0
-Vanilla B42,KY,Dark Wallow Lake,unemployed,8863,14946,0
-
+Vanilla B42,KY,Dark Wallow Lake,unemployed,8863,14946,0$1 spawnpoints
+Vanilla B42,KY,Doe Valley,unemployed,6286,6729,0
+Vanilla B42,KY,Doe Valley,unemployed,6167,6639,0
+Vanilla B42,KY,Doe Valley,unemployed,6059,6725,0
+Vanilla B42,KY,Doe Valley,unemployed,5410,6100,0
+Vanilla B42,KY,Doe Valley,unemployed,5361,6105,0
+Vanilla B42,KY,Doe Valley,unemployed,5329,6089,0
+Vanilla B42,KY,Doe Valley,unemployed,5346,6063,0
+Vanilla B42,KY,Doe Valley,unemployed,5372,6084,0
+Vanilla B42,KY,Doe Valley,unemployed,5374,6037,0
+Vanilla B42,KY,Doe Valley,unemployed,5321,6017,0
+Vanilla B42,KY,Doe Valley,unemployed,5369,5992,0
+Vanilla B42,KY,Doe Valley,unemployed,5321,5961,0
+Vanilla B42,KY,Doe Valley,unemployed,5353,5942,0$1 spawnpoints
 Vanilla B42,KY,Echo Creek,unemployed,3580,11166,0
 Vanilla B42,KY,Echo Creek,unemployed,3538,11107,0
 Vanilla B42,KY,Echo Creek,unemployed,3583,10975,0
@@ -63,8 +72,7 @@ Vanilla B42,KY,Echo Creek,unemployed,3460,11047,0
 Vanilla B42,KY,Echo Creek,unemployed,3425,10904,0
 Vanilla B42,KY,Echo Creek,unemployed,3510,10880,0
 Vanilla B42,KY,Echo Creek,unemployed,3704,10958,0
-Vanilla B42,KY,Echo Creek,unemployed,3742,11061,0
-
+Vanilla B42,KY,Echo Creek,unemployed,3742,11061,0$1 spawnpoints
 Vanilla B42,KY,Ekron,poor_houses,525,9613,0
 Vanilla B42,KY,Ekron,poor_houses,438,9646,0
 Vanilla B42,KY,Ekron,poor_houses,578,9824,0
@@ -89,8 +97,7 @@ Vanilla B42,KY,Ekron,rich_houses,320,9869,0
 Vanilla B42,KY,Ekron,doctor_houses,425,9792,1
 Vanilla B42,KY,Ekron,doctor_houses,428,9792,0
 Vanilla B42,KY,Ekron,fire_station,777,9768,1
-Vanilla B42,KY,Ekron,fire_station,766,9766,1
-
+Vanilla B42,KY,Ekron,fire_station,766,9766,1$1 spawnpoints
 Vanilla B42,KY,Fallas Lake,poor_houses,7445,8326,0
 Vanilla B42,KY,Fallas Lake,poor_houses,7347,8257,0
 Vanilla B42,KY,Fallas Lake,poor_houses,7191,8465,0
@@ -112,8 +119,7 @@ Vanilla B42,KY,Fallas Lake,doctor_houses,7291,8395,0
 Vanilla B42,KY,Fallas Lake,police_station,7261,8401,0
 Vanilla B42,KY,Fallas Lake,police_station,7258,8389,1
 Vanilla B42,KY,Fallas Lake,police_station,7236,8390,0
-Vanilla B42,KY,Fallas Lake,police_station,7234,8429,0
-
+Vanilla B42,KY,Fallas Lake,police_station,7234,8429,0$1 spawnpoints
 Vanilla B42,KY,Irvington,poor_houses,2671,14457,0
 Vanilla B42,KY,Irvington,poor_houses,2606,14459,1
 Vanilla B42,KY,Irvington,poor_houses,2568,14439,0
@@ -154,8 +160,7 @@ Vanilla B42,KY,Irvington,police_station,2486,13936,0
 Vanilla B42,KY,Irvington,fire_station,2475,14045,1
 Vanilla B42,KY,Irvington,fire_station,2473,14054,1
 Vanilla B42,KY,Irvington,fire_station,1030,12985,0
-Vanilla B42,KY,Irvington,fire_station,1031,12992,1
-
+Vanilla B42,KY,Irvington,fire_station,1031,12992,1$1 spawnpoints
 Vanilla B42,KY,Louisville,poor_houses,12600,1315,6
 Vanilla B42,KY,Louisville,poor_houses,12649,1279,6
 Vanilla B42,KY,Louisville,poor_houses,12617,1302,4
@@ -255,8 +260,7 @@ Vanilla B42,KY,Louisville,police_station,12551,1622,1
 Vanilla B42,KY,Louisville,police_station,12463,1684,1
 Vanilla B42,KY,Louisville,fire_station,12359,1741,1
 Vanilla B42,KY,Louisville,fire_station,13934,3041,1
-Vanilla B42,KY,Louisville,fire_station,13722,1776,1
-
+Vanilla B42,KY,Louisville,fire_station,13722,1776,1$1 spawnpoints
 Vanilla B42,KY,March Ridge,poor_houses,10052,12659,0
 Vanilla B42,KY,March Ridge,poor_houses,10070,12642,0
 Vanilla B42,KY,March Ridge,poor_houses,10089,12614,0
@@ -299,22 +303,7 @@ Vanilla B42,KY,March Ridge,rich_houses,9940,13098,0
 Vanilla B42,KY,March Ridge,rich_houses,9910,13024,0
 Vanilla B42,KY,March Ridge,rich_houses,9832,12873,0
 Vanilla B42,KY,March Ridge,doctor_houses,10154,12749,0
-Vanilla B42,KY,March Ridge,doctor_houses,10163,12750,0
-
-Vanilla B42,KY,Doe Valley,unemployed,6286,6729,0
-Vanilla B42,KY,Doe Valley,unemployed,6167,6639,0
-Vanilla B42,KY,Doe Valley,unemployed,6059,6725,0
-Vanilla B42,KY,Doe Valley,unemployed,5410,6100,0
-Vanilla B42,KY,Doe Valley,unemployed,5361,6105,0
-Vanilla B42,KY,Doe Valley,unemployed,5329,6089,0
-Vanilla B42,KY,Doe Valley,unemployed,5346,6063,0
-Vanilla B42,KY,Doe Valley,unemployed,5372,6084,0
-Vanilla B42,KY,Doe Valley,unemployed,5374,6037,0
-Vanilla B42,KY,Doe Valley,unemployed,5321,6017,0
-Vanilla B42,KY,Doe Valley,unemployed,5369,5992,0
-Vanilla B42,KY,Doe Valley,unemployed,5321,5961,0
-Vanilla B42,KY,Doe Valley,unemployed,5353,5942,0
-
+Vanilla B42,KY,March Ridge,doctor_houses,10163,12750,0$1 spawnpoints
 Vanilla B42,KY,Valley Station,unemployed,13311,5019,0
 Vanilla B42,KY,Valley Station,unemployed,13351,5013,0
 Vanilla B42,KY,Valley Station,unemployed,13312,4945,0
@@ -328,15 +317,13 @@ Vanilla B42,KY,Valley Station,unemployed,14063,5473,0
 Vanilla B42,KY,Valley Station,unemployed,14076,5556,0
 Vanilla B42,KY,Valley Station,unemployed,13956,5526,0
 Vanilla B42,KY,Valley Station,unemployed,13928,5468,0
-Vanilla B42,KY,Valley Station,unemployed,13896,5525,0
-
+Vanilla B42,KY,Valley Station,unemployed,13896,5525,0$1 spawnpoints
 Project Indiana Expansion B42 DEMO,IN,Charlestown,unemployed,17459,50,0
 Project Indiana Expansion B42 DEMO,IN,Charlestown,unemployed,17770,240,0
 Project Indiana Expansion B42 DEMO,IN,Charlestown,unemployed,17530,227,0
 Project Indiana Expansion B42 DEMO,IN,Charlestown,unemployed,17554,116,0
 Project Indiana Expansion B42 DEMO,IN,Charlestown,unemployed,17809,74,0
-Project Indiana Expansion B42 DEMO,IN,Charlestown,unemployed,17385,111,0
-
+Project Indiana Expansion B42 DEMO,IN,Charlestown,unemployed,17385,111,0$1 spawnpoints
 Project Indiana Expansion B42 DEMO,IN,Corydon,unemployed,4260,1880,0
 Project Indiana Expansion B42 DEMO,IN,Corydon,unemployed,4662,1393,0
 Project Indiana Expansion B42 DEMO,IN,Corydon,unemployed,4047,1446,0
@@ -346,10 +333,9 @@ Project Indiana Expansion B42 DEMO,IN,Corydon,unemployed,3997,741,0
 Project Indiana Expansion B42 DEMO,IN,Corydon,unemployed,3761,678,0
 Project Indiana Expansion B42 DEMO,IN,Corydon,unemployed,3522,766,0
 Project Indiana Expansion B42 DEMO,IN,Corydon,unemployed,3341,1073,0
-Project Indiana Expansion B42 DEMO,IN,Corydon,unemployed,3359,354,0
-
+Project Indiana Expansion B42 DEMO,IN,Corydon,unemployed,3359,354,0$1 spawnpoints
 Project Indiana Expansion B42 DEMO,IN,Laconia,unemployed,5835,4455,0
 Project Indiana Expansion B42 DEMO,IN,Laconia,unemployed,6026,4333,0
 Project Indiana Expansion B42 DEMO,IN,Laconia,unemployed,5839,4215,0
 Project Indiana Expansion B42 DEMO,IN,Laconia,unemployed,5753,4332,0
-Project Indiana Expansion B42 DEMO,IN,Laconia,unemployed,5837,4312,0
+Project Indiana Expansion B42 DEMO,IN,Laconia,unemployed,5837,4312,0$1 spawnpoints

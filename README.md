@@ -1,13 +1,13 @@
 # Extra Spawn Locations for Project Zomboid
-More than 300 new spawn locations for Project Zomboid Build 42, in singleplayer or multiplayer.  
+More than 300 new Spawnpoints for Project Zomboid Build 42, in singleplayer or multiplayer.  
 Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamcommunity.com/sharedfiles/filedetails/?id=3507117617)
 
 <br>
 
 ## Table of Contents
-- [List of added Spawns](#list-of-added-spawns)
-    - [Extra Vanilla B42 Spawns](#b42-extra-vanilla-build-42-spawns)
-    - [Project Indiana Expansion B42 DEMO (Mod)](#b42-project-indiana-expansion-b42-demo)
+- [List of added Spawnpoints](#list-of-added-spawnpoints)
+    - [Extra Vanilla B42 Spawnpoints](#b42-extra-vanilla-build-42-spawnpoints)
+    - [Extra Project Indiana Expansion B42 DEMO (Mod) Spawnpoints](#b42-extra-project-indiana-expansion-b42-demo-spawnpoints)
 - [Installation in Singleplayer](#installation-in-singleplayer)
 - [Installation on Multiplayer Servers](#installation-on-multiplayer-servers)
 
@@ -15,18 +15,19 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
 <br><br>
 
 
-## List of added Spawns
+## List of added Spawnpoints
 > [!NOTE]  
 > 
 > - Occupation-dependent means the pool from which possible spawn locations are chosen is different based on the character's occupation and wealth.  
 >   For example, the `fireofficer` occupation may spawn in poor wealth houses as well as fire stations, while the engineer can only spawn in medium and rich wealth houses.
 > - Since there are limited spawns for certain occupations like `fireofficer` or `policeofficer`, they have been balanced out so characters have a similar chance of spawning at their home vs at their jobsite.
+> - I tried my best to match occupations and keep spawnpoints close to their respective location's center. If any are off, please note down the spawn coordinates or map location and open an issue.
 > - If you want a list of the raw coordinates, refer to [the `coordinates.csv` file.](./coordinates.csv)
 > - If you're interested in how spawnpoints work, maybe my notes in [the `info.md` file](./info.md) will be of help.
 
 <br>
 
-### `[B42]` Extra Vanilla Build 42 Spawns
+### `[B42]` Extra Vanilla Build 42 Spawnpoints
 <details><summary><b>Map - click to show</b></summary>
 <br>
 
@@ -34,31 +35,48 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
 </details>
   
 - Occupation-dependent:
+    - Random, KY
+        - Contains all other KY spawnpoints from this project, chosen at random.
+        - Region: `{ name = "Random,KY", file = "media/maps/Random, KY/spawnpoints.lua" },`
+        - Amount: 340 spawnpoints (poor_houses, medium_houses, rich_houses, doctor_houses, police_station, fire_station)
     - Brandenburg, KY
         - Region: `{ name = "Brandenburg,KY", file = "media/maps/Brandenburg, KY/spawnpoints.lua" },`
+        - Amount: 34 spawnpoints (poor_houses, medium_houses, rich_houses, doctor_houses, police_station, fire_station)
     - Ekron, KY
         - Region: `{ name = "Ekron,KY", file = "media/maps/Ekron, KY/spawnpoints.lua" },`
+        - Amount: 25 spawnpoints (poor_houses, medium_houses, rich_houses, doctor_houses, fire_station)
     - Fallas Lake, KY
         - Region: `{ name = "Fallas Lake,KY", file = "media/maps/Fallas Lake, KY/spawnpoints.lua" },`
+        - Amount: 22 spawnpoints (poor_houses, medium_houses, rich_houses, doctor_houses, police_station)
     - Irvington, KY
+        - Includes chance to spawn at Irvington Speedway FD as a firefighter.
         - Region: `{ name = "Irvington,KY", file = "media/maps/Irvington, KY/spawnpoints.lua" },`
+        - Amount: 41 spawnpoints (poor_houses, medium_houses, rich_houses, doctor_houses, police_station, fire_station)
     - Louisville, KY
+        - Contains special penthouse spawns, and the most variance in verticality. The hardest location by far.
         - Region: `{ name = "Louisville,KY", file = "media/maps/Louisville, KY/spawnpoints.lua" },`
+        - Amount: 100 spawnpoints (poor_houses, medium_houses, rich_houses, doctor_houses, police_station, fire_station)
     - March Ridge, KY
         - Region: `{ name = "March Ridge,KY", file = "media/maps/March Ridge, KY/spawnpoints.lua" },`
+        - Amount: 43 spawnpoints (poor_houses, medium_houses, rich_houses, doctor_houses)
 - Occupation-independent:
     - Coalfield, KY
         - Region: `{ name = "Coalfield,KY", file = "media/maps/Coalfield, KY/spawnpoints.lua" },`
+        - Amount: 12 spawnpoints
     - Dark Wallow Lake, KY
         - Region: `{ name = "Dark Wallow Lake,KY", file = "media/maps/Dark Wallow Lake, KY/spawnpoints.lua" },`
-    - Echo Creek, KY
-        - Region: `{ name = "Echo Creek,KY", file = "media/maps/Echo Creek, KY/spawnpoints.lua" },`
+        - Amount: 7 spawnpoints
     - Doe Valley, KY
         - Region: `{ name = "Doe Valley,KY", file = "media/maps/Doe Valley, KY/spawnpoints.lua" },`
+        - Amount: 13 spawnpoints
+    - Echo Creek, KY
+        - Region: `{ name = "Echo Creek,KY", file = "media/maps/Echo Creek, KY/spawnpoints.lua" },`
+        - Amount: 8 spawnpoints
     - Valley Station, KY
         - Region: `{ name = "Valley Station,KY", file = "media/maps/Valley Station, KY/spawnpoints.lua" },`
+        - Amount: 14 spawnpoints
 
-### `[B42]` [Project Indiana Expansion B42 DEMO](https://steamcommunity.com/sharedfiles/filedetails/?id=3507117617)
+### `[B42]` Extra [Project Indiana Expansion B42 DEMO](https://steamcommunity.com/sharedfiles/filedetails/?id=3507117617) Spawnpoints
 <details><summary><b>Map - click to show</b></summary>
 <br>
 
@@ -68,10 +86,13 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
 - Occupation-independent:
     - Charlestown, IN
         - Region: `{ name = "Charlestown,IN", file = "media/maps/Charlestown, IN/spawnpoints.lua" },`
+        - Amount: 6 spawnpoints
     - Corydon, IN
         - Region: `{ name = "Corydon,IN", file = "media/maps/Corydon, IN/spawnpoints.lua" },`
+        - Amount: 10 spawnpoints
     - Laconia, IN
         - Region: `{ name = "Laconia,IN", file = "media/maps/Laconia, IN/spawnpoints.lua" },`
+        - Amount: 5 spawnpoints
 
 
 <br><br>
