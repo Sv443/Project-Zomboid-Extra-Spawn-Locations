@@ -6,6 +6,8 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
 
 ## Table of Contents
 - [List of added Spawns](#list-of-added-spawns)
+    - [Extra Vanilla B42 Spawns](#b42-extra-vanilla-build-42-spawns)
+    - [Project Indiana Expansion B42 DEMO (Mod)](#b42-project-indiana-expansion-b42-demo)
 - [Installation in Singleplayer](#installation-in-singleplayer)
 - [Installation on Multiplayer Servers](#installation-on-multiplayer-servers)
 
@@ -16,8 +18,13 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
 ## List of added Spawns
 > [!NOTE]  
 > 
-> Occupation-dependent means the pool from which possible spawn locations are chosen is different based on the character's occupation and wealth.  
-> For example, the `fireofficer` occupation may spawn in poor wealth houses as well as fire stations, while the engineer can only spawn in medium and rich wealth houses.
+> - Occupation-dependent means the pool from which possible spawn locations are chosen is different based on the character's occupation and wealth.  
+>   For example, the `fireofficer` occupation may spawn in poor wealth houses as well as fire stations, while the engineer can only spawn in medium and rich wealth houses.
+> - Since there are limited spawns for certain occupations like `fireofficer` or `policeofficer`, they have been duplicated so characters have a similar chance of spawning at their home vs at their jobsite.
+> - If you want a list of the raw coordinates, refer to [the `coordinates.csv` file.](./coordinates.csv)
+> - If you're interested in how spawnpoints work, maybe my notes in [the `info.md` file](./info.md) will be of help.
+
+<br>
 
 ### `[B42]` Extra Vanilla Build 42 Spawns
 <details><summary><b>Map - click to show</b></summary>
@@ -71,15 +78,16 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
 
 
 ## Installation in Singleplayer
-1. [Download and extract this repository](https://github.com/Sv443/Project-Zomboid-Extra-Spawn-Locations/archive/refs/heads/main.zip) and copy all folders of the subfolders in [`maps/`](./maps/) that you want to add into `steamapps/common/ProjectZomboid/media/maps`.  
-  If a folder with that name exists, delete it before copying over the custom spawns, or select the "replace" option in your file manager.
+1. [Download and extract this repository](https://github.com/Sv443/Project-Zomboid-Extra-Spawn-Locations/archive/refs/heads/main.zip) and copy all folders of the *subfolders* in [`maps/`](./maps/) that you want to add into the `steamapps/common/ProjectZomboid/media/maps/` folder.  
+  If a folder with that name exists, delete it before copying over the custom spawns, or select the "replace" option in your file manager, as those are the vanilla locations with a single spawnpoint each.
 2. Restart the game if it is running, create a new character, and spawn in over 300 new locations!
 
 <br><br>
 
 
 ## Installation on Multiplayer Servers
-1. [Download and extract this repository](https://github.com/Sv443/Project-Zomboid-Extra-Spawn-Locations/archive/refs/heads/main.zip) and copy all folders of the subfolders in [`maps/`](./maps/) that you want to add into `server-files/media/maps/`.
+1. [Download and extract this repository](https://github.com/Sv443/Project-Zomboid-Extra-Spawn-Locations/archive/refs/heads/main.zip) and copy all folders of the *subfolders* in [`maps/`](./maps/) that you want to add into the `server-files/media/maps/` folder.  
+  If a folder with that name exists, delete it before copying over the custom spawns, or select the "replace" option in your file manager, as those are the vanilla locations with a single spawnpoint each.
 2. Edit the file `server-data/Server/pzserver_spawnregions.lua` and add every "region" object string from the [list of added spawns](#list-of-added-spawns) on a new line.  
   Here is a complete file, feel free to copy it and remove every spawn point you didn't add a folder for:  
     <details><summary>Full pzserver_spawnregions.lua file - click to expand</summary>
@@ -113,3 +121,17 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
     ```
     </details>
 3. Restart the server, create a new character, and spawn in over 300 new locations!
+
+
+<br><br><br><br>
+
+
+<div align="center" style="text-align: center;">
+
+Made with ❤️ by [Sv443](https://github.com/Sv443)  
+If you like this project, please consider [supporting the development](https://github.com/sponsors/Sv443)  
+  
+Most of this repository is licensed under [the Unlicense.](https://unlicense.org/)  
+Refer to [the `LICENSE.txt` file](./LICENSE.txt) for details.
+
+</div>
