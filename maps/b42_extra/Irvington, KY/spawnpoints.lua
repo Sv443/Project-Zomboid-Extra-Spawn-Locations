@@ -67,15 +67,17 @@ function SpawnPoints()
     local fire_station = {
         { posX = 2475, posY = 14045, posZ = 1 },
         { posX = 2473, posY = 14054, posZ = 1 },
+        { posX = 1030, posY = 12985, posZ = 0 },
+        { posX = 1031, posY = 12992, posZ = 1 },
         -- weight:
         { posX = 2475, posY = 14045, posZ = 1 },
         { posX = 2473, posY = 14054, posZ = 1 },
+        { posX = 1030, posY = 12985, posZ = 0 },
+        { posX = 1031, posY = 12992, posZ = 1 },
         { posX = 2475, posY = 14045, posZ = 1 },
         { posX = 2473, posY = 14054, posZ = 1 },
-        { posX = 2475, posY = 14045, posZ = 1 },
-        { posX = 2473, posY = 14054, posZ = 1 },
-        { posX = 2475, posY = 14045, posZ = 1 },
-        { posX = 2473, posY = 14054, posZ = 1 },
+        { posX = 1030, posY = 12985, posZ = 0 },
+        { posX = 1031, posY = 12992, posZ = 1 },
     }
     return {
         chef = mergeTable(poor_houses, medium_houses, rich_houses),
