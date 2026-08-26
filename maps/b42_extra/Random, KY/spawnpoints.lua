@@ -141,6 +141,50 @@ function SpawnPoints()
         { posX = 10098, posY = 12618, posZ = 3 },
         { posX = 10064, posY = 12610, posZ = 3 },
         { posX = 10059, posY = 12645, posZ = 3 },
+        -- Muldraugh:
+        { posX = 10770, posY = 10271, posZ = 0 },
+        { posX = 10637, posY = 10267, posZ = 0 },
+        { posX = 10720, posY = 10195, posZ = 0 },
+        { posX = 10997, posY = 9699, posZ = 0 },
+        { posX = 10819, posY = 9437, posZ = 0 },
+        { posX = 10695, posY = 9383, posZ = 0 },
+        { posX = 10776, posY = 9764, posZ = 0 },
+        { posX = 10911, posY = 10037, posZ = 0 },
+        { posX = 10721, posY = 10630, posZ = 0 },
+        { posX = 10718, posY = 9989, posZ = 0 },
+        -- Riverside:
+        { posX = 5739, posY = 5258, posZ = 0 },
+        { posX = 5832, posY = 5233, posZ = 0 },
+        { posX = 6021, posY = 5364, posZ = 0 },
+        { posX = 6076, posY = 5375, posZ = 0 },
+        { posX = 6117, posY = 5473, posZ = 0 },
+        { posX = 6167, posY = 5412, posZ = 0 },
+        { posX = 6443, posY = 5562, posZ = 0 },
+        { posX = 6408, posY = 5498, posZ = 0 },
+        { posX = 7342, posY = 5981, posZ = 0 },
+        { posX = 7396, posY = 6017, posZ = 0 },
+        -- Rosewood:
+        { posX = 7976, posY = 11402, posZ = 0 },
+        { posX = 7822, posY = 11286, posZ = 0 },
+        { posX = 8035, posY = 11560, posZ = 0 },
+        { posX = 8078, posY = 11547, posZ = 1 },
+        { posX = 8037, posY = 11440, posZ = 1 },
+        { posX = 8303, posY = 11689, posZ = 0 },
+        { posX = 8495, posY = 11550, posZ = 0 },
+        { posX = 7989, posY = 11755, posZ = 0 },
+        { posX = 8114, posY = 12223, posZ = 0 },
+        { posX = 8431, posY = 12135, posZ = 0 },
+        -- West Point:
+        { posX = 11308, posY = 6671, posZ = 0 },
+        { posX = 11218, posY = 6796, posZ = 0 },
+        { posX = 10936, posY = 6645, posZ = 0 },
+        { posX = 11536, posY = 6934, posZ = 0 },
+        { posX = 12023, posY = 6980, posZ = 0 },
+        { posX = 11936, posY = 6749, posZ = 0 },
+        { posX = 11735, posY = 6691, posZ = 0 },
+        { posX = 10955, posY = 6964, posZ = 0 },
+        { posX = 11913, posY = 7070, posZ = 0 },
+        { posX = 11967, posY = 6749, posZ = 0 },
     }
     local medium_houses = {
         -- Brandenburg:
@@ -232,6 +276,30 @@ function SpawnPoints()
         { posX = 9823, posY = 12959, posZ = 0 },
         { posX = 9850, posY = 13002, posZ = 0 },
         { posX = 9823, posY = 13096, posZ = 0 },
+        -- Muldraugh:
+        { posX = 11018, posY = 9419, posZ = 0 },
+        { posX = 10656, posY = 10137, posZ = 0 },
+        { posX = 10810, posY = 10037, posZ = 0 },
+        { posX = 10820, posY = 9419, posZ = 0 },
+        { posX = 10654, posY = 9371, posZ = 0 },
+        -- Riverside:
+        { posX = 5814, posY = 5233, posZ = 0 },
+        { posX = 6081, posY = 5344, posZ = 0 },
+        { posX = 6817, posY = 5259, posZ = 0 },
+        { posX = 6067, posY = 5457, posZ = 0 },
+        { posX = 6502, posY = 5517, posZ = 0 },
+        -- Rosewood:
+        { posX = 7911, posY = 11409, posZ = 1 },
+        { posX = 7995, posY = 11414, posZ = 0 },
+        { posX = 8284, posY = 11721, posZ = 1 },
+        { posX = 8446, posY = 11729, posZ = 0 },
+        { posX = 8168, posY = 12394, posZ = 1 },
+        -- West Point:
+        { posX = 11945, posY = 7049, posZ = 0 },
+        { posX = 11417, posY = 6877, posZ = 0 },
+        { posX = 11835, posY = 6993, posZ = 0 },
+        { posX = 11187, posY = 6733, posZ = 0 },
+        { posX = 10933, posY = 6728, posZ = 0 },
     }
     local rich_houses = {
         -- Brandenburg:
@@ -301,6 +369,22 @@ function SpawnPoints()
         { posX = 9940, posY = 13098, posZ = 0 },
         { posX = 9910, posY = 13024, posZ = 0 },
         { posX = 9832, posY = 12873, posZ = 0 },
+        -- Muldraugh:
+        { posX = 10715, posY = 9532, posZ = 0 },
+        { posX = 10919, posY = 10137, posZ = 0 },
+        { posX = 10754, posY = 10214, posZ = 0 },
+        -- Riverside:
+        { posX = 6762, posY = 5372, posZ = 0 },
+        { posX = 6327, posY = 5412, posZ = 0 },
+        { posX = 6726, posY = 5514, posZ = 0 },
+        -- Rosewood:
+        { posX = 8197, posY = 11557, posZ = 1 },
+        { posX = 8469, posY = 11558, posZ = 1 },
+        { posX = 8471, posY = 11891, posZ = 1 },
+        -- West Point:
+        { posX = 11182, posY = 6860, posZ = 0 },
+        { posX = 11967, posY = 7079, posZ = 0 },
+        { posX = 11767, posY = 6673, posZ = 0 },
     }
     local doctor_houses = {
         -- Brandenburg:
@@ -328,6 +412,14 @@ function SpawnPoints()
         -- March Ridge:
         { posX = 10154, posY = 12749, posZ = 0 },
         { posX = 10163, posY = 12750, posZ = 0 },
+        -- Muldraugh:
+        { posX = 10878, posY = 10021, posZ = 0 },
+        { posX = 10863, posY = 10042, posZ = 0 },
+        -- Riverside:
+        { posX = 6658, posY = 5247, posZ = 1 },
+        { posX = 6658, posY = 5247, posZ = 1 },
+        -- West Point:
+        { posX = 11531, posY = 6972, posZ = 0 },
         -- WEIGHT:
         -- Brandenburg:
         { posX = 1724, posY = 5744, posZ = 0 },
@@ -354,6 +446,14 @@ function SpawnPoints()
         -- March Ridge:
         { posX = 10154, posY = 12749, posZ = 0 },
         { posX = 10163, posY = 12750, posZ = 0 },
+        -- Muldraugh:
+        { posX = 10878, posY = 10021, posZ = 0 },
+        { posX = 10863, posY = 10042, posZ = 0 },
+        -- Riverside:
+        { posX = 6658, posY = 5247, posZ = 1 },
+        { posX = 6658, posY = 5247, posZ = 1 },
+        -- West Point:
+        { posX = 11531, posY = 6972, posZ = 0 },
     }
     local police_station = {
         -- Brandenburg:
@@ -377,6 +477,15 @@ function SpawnPoints()
         { posX = 12522, posY = 1626, posZ = 0 },
         { posX = 12551, posY = 1622, posZ = 1 },
         { posX = 12463, posY = 1684, posZ = 1 },
+        -- Muldraugh:
+        { posX = 10637, posY = 10418, posZ = 0 },
+        { posX = 10637, posY = 10418, posZ = 0 },
+        -- Riverside:
+        { posX = 6119, posY = 5257, posZ = 0 },
+        { posX = 6119, posY = 5257, posZ = 0 },
+        -- Rosewood:
+        { posX = 8137, posY = 11746, posZ = 1 },
+        { posX = 8137, posY = 11746, posZ = 1 },
         -- WEIGHT:
         -- Brandenburg:
         { posX = 2040, posY = 5978, posZ = 0 },
@@ -399,6 +508,15 @@ function SpawnPoints()
         { posX = 12522, posY = 1626, posZ = 0 },
         { posX = 12551, posY = 1622, posZ = 1 },
         { posX = 12463, posY = 1684, posZ = 1 },
+        -- Muldraugh:
+        { posX = 10637, posY = 10418, posZ = 0 },
+        { posX = 10637, posY = 10418, posZ = 0 },
+        -- Riverside:
+        { posX = 6119, posY = 5257, posZ = 0 },
+        { posX = 6119, posY = 5257, posZ = 0 },
+        -- Rosewood:
+        { posX = 8137, posY = 11746, posZ = 1 },
+        { posX = 8137, posY = 11746, posZ = 1 },
     }
     local fire_station = {
         -- Brandenburg:
@@ -416,6 +534,14 @@ function SpawnPoints()
         { posX = 12359, posY = 1741, posZ = 1 },
         { posX = 13934, posY = 3041, posZ = 1 },
         { posX = 13722, posY = 1776, posZ = 1 },
+        -- Riverside:
+        { posX = 6081, posY = 5255, posZ = 1 },
+        { posX = 6081, posY = 5255, posZ = 1 },
+        -- Rosewood:
+        { posX = 8066, posY = 11726, posZ = 0 },
+        { posX = 8066, posY = 11726, posZ = 0 },
+        -- West Point:
+        { posX = 12275, posY = 7032, posZ = 0 },
         -- WEIGHT:
         -- Brandenburg:
         { posX = 2059, posY = 6259, posZ = 1 },
@@ -432,6 +558,14 @@ function SpawnPoints()
         { posX = 12359, posY = 1741, posZ = 1 },
         { posX = 13934, posY = 3041, posZ = 1 },
         { posX = 13722, posY = 1776, posZ = 1 },
+        -- Riverside:
+        { posX = 6081, posY = 5255, posZ = 1 },
+        { posX = 6081, posY = 5255, posZ = 1 },
+        -- Rosewood:
+        { posX = 8066, posY = 11726, posZ = 0 },
+        { posX = 8066, posY = 11726, posZ = 0 },
+        -- West Point:
+        { posX = 12275, posY = 7032, posZ = 0 },
         -- Brandenburg:
         { posX = 2059, posY = 6259, posZ = 1 },
         { posX = 2061, posY = 6269, posZ = 1 },
@@ -447,21 +581,14 @@ function SpawnPoints()
         { posX = 12359, posY = 1741, posZ = 1 },
         { posX = 13934, posY = 3041, posZ = 1 },
         { posX = 13722, posY = 1776, posZ = 1 },
-        -- Brandenburg:
-        { posX = 2059, posY = 6259, posZ = 1 },
-        { posX = 2061, posY = 6269, posZ = 1 },
-        -- Ekron:
-        { posX = 777, posY = 9768, posZ = 1 },
-        { posX = 766, posY = 9766, posZ = 1 },
-        -- Irvington:
-        { posX = 2475, posY = 14045, posZ = 1 },
-        { posX = 2473, posY = 14054, posZ = 1 },
-        { posX = 1030, posY = 12985, posZ = 0 },
-        { posX = 1031, posY = 12992, posZ = 1 },
-        -- Louisville:
-        { posX = 12359, posY = 1741, posZ = 1 },
-        { posX = 13934, posY = 3041, posZ = 1 },
-        { posX = 13722, posY = 1776, posZ = 1 },
+        -- Riverside:
+        { posX = 6081, posY = 5255, posZ = 1 },
+        { posX = 6081, posY = 5255, posZ = 1 },
+        -- Rosewood:
+        { posX = 8066, posY = 11726, posZ = 0 },
+        { posX = 8066, posY = 11726, posZ = 0 },
+        -- West Point:
+        { posX = 12275, posY = 7032, posZ = 0 },
     }
     return {
         chef = mergeTable(uncategorized, poor_houses, medium_houses, rich_houses),

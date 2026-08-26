@@ -1,5 +1,5 @@
 ## 0.2.0
-- Added `Random, KY` spawn location, as a combination of all other Vanilla Build 42 spawnpoints.
+- Added `Random, KY` spawn location, as a combination of the four Vanilla Build 42 locations and all Extra Build 42 spawnpoints.
 
 <br>
 
