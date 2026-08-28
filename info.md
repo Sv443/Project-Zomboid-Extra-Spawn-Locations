@@ -4,4 +4,4 @@
     - `zoomS` is incredibly sensitive and should only really be bumped or lowered by about `<=2.0` at most.
     - If no `<Location>.bik` file exists in `steamapps/common/ProjectZomboid/media/videos/` for the given spawn location, `demoVideo` should be omitted.  
       This means the description text is the only thing appearing below the list of locations in the spawn picker UI.
-    - If no `<Location>.json` file exists in `steamapps/common/ProjectZomboid/media/lua/shared/Translate/EN/`, the dynamic translations in the form of `See media/lua/shared/Translate/EN/<Location>, KY/<description or title>.txt` need to either be manually added to the client, or the value needs to be a static string property (in which case it will only be available in English).
+    - If no `<Location>.json` file exists in `steamapps/common/ProjectZomboid/media/lua/shared/Translate/EN/`, the dynamic translations in the form of `See media/lua/shared/Translate/EN/<Location>, KY/<description or title>.txt` need to either be manually added to the client, or the value needs to be a static string property (in which case it will only be available in one language).
