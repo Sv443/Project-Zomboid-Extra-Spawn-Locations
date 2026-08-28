@@ -103,6 +103,10 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
   If a folder with that name exists, delete it before copying over the custom spawns, or select the "replace" option in your file manager, as those are the vanilla locations with a single spawnpoint each.
 2. Restart the game if it is running, create a new character, and spawn in over 300 new locations!
 
+> [!IMPORTANT]  
+> 
+> These steps will have to be repeated after every update of the game, as Steam will delete files that don't match the update package.
+
 <br><br>
 
 
@@ -142,6 +146,10 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
     ```
     </details>
 3. Restart the server, create a new character, and spawn in over 300 new locations!
+
+> [!IMPORTANT]  
+> 
+> These steps will have to be repeated after every update of the game, as the server will delete files that don't match the update package.
 
 
 <br><br><br><br>
