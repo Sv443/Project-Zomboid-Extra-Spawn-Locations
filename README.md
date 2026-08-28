@@ -159,7 +159,7 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
 <div align="center" style="text-align: center;">
 
 Made with ❤️ by [Sv443](https://github.com/Sv443)  
-If you like this project, please consider [supporting the development](https://github.com/sponsors/Sv443)  
+If you like this project, please consider [supporting the development.](https://github.com/sponsors/Sv443)  
   
 Most of this repository is licensed under [the Unlicense.](https://unlicense.org/)  
 Refer to [the `LICENSE.txt` file](./LICENSE.txt) for details.
