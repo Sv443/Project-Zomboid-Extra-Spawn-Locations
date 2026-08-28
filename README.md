@@ -136,6 +136,7 @@ Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamco
         { name = "Irvington,KY", file = "media/maps/Irvington, KY/spawnpoints.lua" },
         { name = "Louisville,KY", file = "media/maps/Louisville, KY/spawnpoints.lua" },
         { name = "March Ridge,KY", file = "media/maps/March Ridge, KY/spawnpoints.lua" },
+        { name = "Random,KY", file = "media/maps/Random, KY/spawnpoints.lua" },
         { name = "Valley Station,KY", file = "media/maps/Valley Station, KY/spawnpoints.lua" },
         -- Project Indiana:
         { name = "Charlestown,IN", file = "media/maps/Charlestown, IN/spawnpoints.lua" },
