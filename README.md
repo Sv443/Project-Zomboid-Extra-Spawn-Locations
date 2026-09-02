@@ -1,5 +1,5 @@
 # Extra Spawn Locations for Project Zomboid
-More than 300 new Spawnpoints for Project Zomboid Build 42, in singleplayer or multiplayer.  
+More than 300 new Spawnpoints for Project Zomboid Build 42 (any stable version), in singleplayer or multiplayer.  
 Also supports the [Project Indiana Expansion Build 42 DEMO mod.](https://steamcommunity.com/sharedfiles/filedetails/?id=3507117617)
 
 <br>
